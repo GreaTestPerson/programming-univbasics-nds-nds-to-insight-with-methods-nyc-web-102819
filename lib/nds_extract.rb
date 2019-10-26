@@ -5,6 +5,8 @@ require 'directors_database'
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 
+nds= directors_database
+
 def directors_totals(nds)
   result = {}
   nil
